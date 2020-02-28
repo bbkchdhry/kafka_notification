@@ -24,7 +24,7 @@ consumer = KafkaConsumer(
 
 def send(text):
     payload = {
-        "channel": '@' + channel,
+        "channel": channel,
         "username": '%s' % username,
         "icon_url": '',
         "attachments": [{

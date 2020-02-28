@@ -38,6 +38,7 @@ def send(text):
 
 
 if __name__ == "__main__":
+    print("started notification queue!!!")
     try:
         for msg in consumer:
             try:
